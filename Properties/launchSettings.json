@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "C64Chat": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:60697;http://localhost:60698"
+    }
+  }
+}

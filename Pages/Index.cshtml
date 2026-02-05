@@ -1,0 +1,22 @@
+﻿@page
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>C64 CHAT</title>
+    <link rel="stylesheet" href="/css/c64.css">
+</head>
+<body>
+    <div class="c64" id="terminal">
+        <div id="screen"></div>
+        <div class="prompt">
+            <span id="inputLine"></span><span class="cursor">█</span>
+        </div>
+    </div>
+
+    <input type="text" id="hiddenInput" style="position:absolute; opacity:0; left:-9999px;" />
+
+    <script src="/js/c64.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #7b71db;
+    font-family: Courier New, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.c64 {
+    width: 90%;
+    height: 80%;
+    padding: 16px;
+    background: #3e32a2;
+    color: #7b71db;
+    font-weight: bold;
+    font-size: 1.5rem;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+    .c64::-webkit-scrollbar {
+        display: none;
+    }
+
+.screen {
+    white-space: pre-wrap;
+}
+
+.prompt {
+    display: flex;
+}
+
+.cursor {
+    animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
